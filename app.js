@@ -33,6 +33,28 @@ const employeeQuestions = [
         message: "Employee's role?",
         choices: ["engineer", "intern"]
     },
+    {
+        when: function (input) {
+            return input.role == "engineer"
+        },
+        type: "input",
+        name: "github",
+        message: "ENTER GITHUB USERNAME:",
+    },
+    {
+        when: function(input) {
+            return input.role == "intern"
+        },
+        type: "input",
+        name: "school",
+        message: "ENTER SCHOOL NAME:",
+    },
+    {
+        type: "list",
+        name: "addAnother",
+        message: "ADD TEAM MEMBER?",
+        choices: ["Yes", "No"]
+    }
     
 ]
 const managerQuestions = [
