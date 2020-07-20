@@ -15,7 +15,7 @@
  ## Installation:
     Run node app.js
     Answer prompted questions
-    ![video](EmployeeSummaryGIF.gif)
+    ![video](EmployeeSummaryTerminal.gif)
  ## Questions:
     For questions, you can go to my GitHub page at the following Link:
 
