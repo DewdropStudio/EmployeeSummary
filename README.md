@@ -8,7 +8,10 @@
 - [Contact](#contact)
 
  ## Description:
-    Node CLI that takes team members information and generates an HTML summary page to keep records of management and employees.
+    Node CLI that takes team members information and generates an HTML summary page 
+    to keep records of management and employees.
+   ![video](EmployeeSummaryMobile.gif)
+    
   
  
 
